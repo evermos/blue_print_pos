@@ -1,6 +1,6 @@
 name: blue_print_pos
 description: Plugin to connecting bluetooth printer device, support on Android and iOS
-version: 1.0.0
+version: 1.0.1
 homepage: https://github.com/evermos/blue_print_pos
 publish_to: http://pub.dev.internal
 
@@ -17,7 +17,7 @@ dependencies:
   flutter:
     sdk: flutter
   # Handler bluetooth for iOS
-  flutter_blue_plus: ^1.1.2
+  flutter_blue_plus: 1.5.2
   # Image utilities
   image: ^3.1.3
   # Generate qr image painter
