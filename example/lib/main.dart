@@ -117,11 +117,11 @@ class _MyAppState extends State<MyApp> {
                                         ),
                                       ),
                                       style: ButtonStyle(
-                                        backgroundColor: MaterialStateProperty
+                                        backgroundColor: WidgetStateProperty
                                             .resolveWith<Color>(
-                                          (Set<MaterialState> states) {
+                                          (Set<WidgetState> states) {
                                             if (states.contains(
-                                                MaterialState.pressed)) {
+                                                WidgetState.pressed)) {
                                               return Theme.of(context)
                                                   .colorScheme
                                                   .primary
@@ -140,10 +140,10 @@ class _MyAppState extends State<MyApp> {
                         ],
                       ),
                     )
-                  : Center(
+                  : const Center(
                       child: Column(
                         mainAxisAlignment: MainAxisAlignment.center,
-                        children: const <Widget>[
+                        children: <Widget>[
                           Text(
                             'Scan bluetooth device',
                             style: TextStyle(fontSize: 24, color: Colors.blue),
