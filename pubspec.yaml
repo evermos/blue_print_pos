@@ -19,7 +19,7 @@ dependencies:
   # Handler bluetooth for iOS
   flutter_blue_plus: ^1.35.3
   # Image utilities
-  image: ^4.5.2
+  image: ^4.2.0
   # Generate qr image painter
   qr_flutter: ^4.1.0
 
