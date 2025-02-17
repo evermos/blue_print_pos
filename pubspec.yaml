@@ -1,6 +1,6 @@
 name: blue_print_pos
 description: Plugin to connecting bluetooth printer device, support on Android and iOS
-version: 1.0.2
+version: 1.1.0
 homepage: https://github.com/evermos/blue_print_pos
 publish_to: http://pub.dev.internal
 
