@@ -1,3 +1,6 @@
+## 1.1.0
+* Upgrade obselete dependency
+
 ## 1.0.2
 * Upgrade image version
 
